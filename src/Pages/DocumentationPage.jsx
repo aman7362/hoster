@@ -27,7 +27,7 @@ const DocumentationPage = () => {
                         Documentation
                     </Typography>
                     <Typography variant="body1" paragraph>
-                        N/A
+                        THIS SITE IS FOR SALE AND IF YOU WANT TO PURCHSE IT SO PLEASE CONTACT TO OUR DEV TEAM AT "yuriConference@gmail.com"
                     </Typography>
                     <img
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0aJ-KoYfAAKCTDspIXgXFYNLtRFgMHKHgA&s"
