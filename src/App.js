@@ -13,6 +13,7 @@ import EasterEgg from './Pages/EasterEgg';
 import PageNotFound from './Pages/PageNotFound';
 import OfflinePage from './Pages/OfflinePage'
 import YuriRemind from './Pages/MeetingReminder';
+import CopyrightPage from './Pages/Copyright';
 
 
 function App() {
@@ -68,6 +69,7 @@ function App() {
           <Route path='/docs' element={<DocumentationPage />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path='/scheduleMeetings?' element={<YuriRemind />} />
+          <Route path='/copyright?' element={<CopyrightPage />} />
           <Route path="/memo!" element={<EasterEgg />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>

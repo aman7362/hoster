@@ -103,6 +103,7 @@ const MeetingReminder = () => {
                 <Button
                     variant="contained"
                     color="primary"
+                    style={{ marginTop: '20px' }}
                     onClick={scheduleMeeting}
                     disabled={loading}
                     sx={{

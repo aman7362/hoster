@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const theme = createTheme({
     palette: {
         mode: 'dark',
@@ -156,11 +157,12 @@ const HomePage = () => {
 
                 <AppBar position="static" color="primary" elevation={0} style={{ borderRadius: '10px' }}>
                     <Toolbar>
-                        <Typography variant="h6" style={{ flexGrow: 1, textAlign: 'center', color: '#fff' }}>
-                            Yuri
+                        <Typography variant="h6" style={{ flexGrow: 1, textAlign: 'left', color: '#fff' }}>
+                            YURI
                         </Typography>
                         <Button color="inherit" onClick={() => navigate('/docs')}>DOCS</Button>  {/* Add the DOCS button here */}
-                        <Button color="inherit" onClick={() => navigate('/scheduleMeetings?')}>Schedule A Meeting</Button>
+                        <Button color="inherit" onClick={() => navigate('/scheduleMeetings?')}>SCHEDULE A MEETING</Button>
+                        <Button color="inherit" onClick={() => navigate('/copyright?')}>COPYRIGHT</Button>
                     </Toolbar>
                 </AppBar>
                 <Container maxWidth="sm" style={{ marginBottom: '30px', textAlign: 'center' }}>
@@ -243,6 +245,11 @@ const HomePage = () => {
                     </Paper>
                 </Container>
             </div>
+            <footer>
+                <Typography>
+                    2024 AKRITI
+                </Typography>
+            </footer>
         </ThemeProvider>
     );
 }
